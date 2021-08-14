@@ -6,43 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mailchimp</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
         <div class="lo"></div>
     </header>
-    <section>
-         <h1>Welcome to Mailchimp</h1> 
 
-         <p style="display: none;" class="paragraph">Find your people. Engage your customers. Build your brad. Do it all with Mailchimp´s Marketing Platform.</p>  
-         <p> Already have an account? <a href="http://login.mailchimp.com">Log in</a></p>
-         <form action="" method="get">
-             <label for="email">Email</label> <br>
-             <input type="email" size="35" name="" id=""> <br>
-             <label for="username">Username</label> <br>
-             <input type="text" name="" id=""> <br>
-             <div class="visibility">
-                <label for="password" class="pass">Password</label>
-                <img src="../Forms/icon/visibility.png" width="30px" height="30px" alt="" srcset="">
-                <p class="see">Show</p>    
-            </div>              
-             <input type="password" name="">
+      </section>
+      <div class="main">
+      <div class="form">
+        <section>
+        
+            <h1>Welcome to Mailchimp</h1> 
+   
+            <p  class="paragraph para">Find your people. Engage your customers. Build your brad. Do it all with Mailchimp´s Marketing Platform.</p>  
+            <p class="paragraph"> Already have an account? <a href="http://login.mailchimp.com">Log in</a></p>
+            <form action="" method="get">
+                <p><label for="email">Email</label></p> 
+                <p><input type="email" size="30" name="" id=""></p>
+                <p><label for="username">Username</label></p> 
+                <input type="text" name="" id=""> <br>
+                <div class="visibility">
+                   <div class="label_pass"><label for="password" class="pass">Password</label></div>
+                   <div class="icon" style="color: #007C89;">
+                       <img src="../Forms/icon/visibility.png" width="20px" height="18px" alt="" >Show
+                   </div>
+                   
+                       
+               </div>              
+                <input type="password" name="">
+                 <div class="description">
+                   <div class="first">
+                       <ul>
+                           <li style="color: #007C89"><span style="color: black;">One lowercase character</span></li>
+                           <li style="color: #007C89"><span style="color: black;">One uppercase character</span></li>
+                           <li style="color: #007C89"><span style="color: black;">One number</span></li>
+                       </ul>
+                   </div>
+                   <div class="second">
+                       <ul>
+                           <li style="color: #007C89"><span style="color: black;">One special character</span></li>
+                           <li style="color: #007C89"><span style="color: black;">8 characters minimum</span></li>
+                       </ul>
+                   </div>
+   
+                 </div>  
+                              
+                <div style="display: flex;height: 60px;">
+                    <input type="checkbox" name="" id="check">
+                    <label for="checkbox" style="text-align: justify;">I don't want to receive updates from Mailchimp related to marketing best  practices, product and feature updates, and promotions.</label>
+                </div>
+                <button class="submit">Sign Up</button>
+            </form>
+            <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="">Terms of Use</a>  and <a href="">Privacy Policy</a> .</p>
+         
+      </div>
+      <div class="lateral"></div>
+      <div class="back">
 
-             <ul>
-                 <li style="color: green;"><span style="color: black;">One lowercase character</span></li>
-                 <li style="color: green;"><span style="color: black;">One uppercase character</span></li>
-                 <li style="color: green;"><span style="color: black;">One number</span></li>
-                 <li style="color: green;"><span style="color: black;">One special character</span></li>
-                 <li style="color: green;"><span style="color: black;">8 characters minimum</span></li>
-                 
-             </ul>
-             <div style="display: flex;">
-                 <input type="checkbox" name="" id="check">
-                 <label for="checkbox" style="text-align: justify;">I don't want to receive updates from Mailchimp related to marketing best  practices, product and feature updates, and promotions.</label>
-             </div>
-             <button class="submit">Sign Up</button>
-         </form>
-         <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's Terms of Use and Privacy Policy.</p>
-    </section>
+      </div>
+      </div>
 </body>
 </html>

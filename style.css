@@ -1,78 +1,123 @@
-body{
-    font: normal 12pt Arial;
-    border-top: 8px solid rgb(255, 255, 16);
-    margin: 0px;
+.body{
     
-    align-items: center;
+   font: 16px Georgia;
+   
 }
-h1,
-p{
+header{
+    margin-top: -10px;
+    padding: 0%;
+    border-top: solid yellow 10px;
+}
+header div{
+    background-image: url(../Forms/icon/mc-freddie-dark.svg);
+    width: 38px;
+    height: 38px;
+    margin: 12px;
+}
+h1, p.paragraph{
     text-align: center;
+    color: #241C15;
+}
+p.paragraph{
+    font: 18px Georgia;
 }
 
-.lo{
-    width: 50px;
-    height: 50px;
-    margin-top: 3%;
-
-    background-image: url(../Forms/icon/lo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 section{
-    width: 95%;
-    border: solid 1px orange;
-    align-items: center;
-}
-form{
-    width: 95%;
+    width: 100%;
     height: auto;
-    justify-content: space-between;
-    margin: 3%;
-    border: solid 1px rgb(26, 25, 25);
-}
-a{
-    text-decoration: none;
-    color: green;
-}
-form > input{
-    width: 90%;
-    height: 25px;
-    margin: 2%;
-    font: normal 14pt Arial;
-}
- input:focus{
-    outline: none !important;
-    border: green solid 1px;
-    box-shadow: 0 0 10px green;
+    margin: auto;
+    align-items: center;
+    
+    padding-left: 1%;
+    
 }
 label{
-    margin: 2%;  
+    padding: 0px 0px 12px;
+    height: 10px;
+    font-size: 18px;
 }
-.visibility{
-    display: flex;
-}
-.see{
-    text-align: left;
-    position: relative;
-    bottom: 10px;
-    margin-left: 1%;
-}
-.pass{
-    margin-right: 60%;
-}
-.see, img{
-    border: solid 1px orange;
+section input{
+    align-items: center;
+    margin: 0px 0px 20px;
+    padding: 0px 15px;
     
-    float: right;
+    font-size: 16px;
+    width: 90%;
+    height: 42px;
 }
-#check{
-    width: 35px;
-    height: 35px;
-    background-color: green;
+a{
+    color: #007C89;
+    text-decoration: none;
 }
 
-.submit{
-    width: 100%;
-    height: 30px;
+.description,
+.visibility,
+.icon{
+    display: flex;
 }
+.visibility{
+    margin-bottom: 20px;
+}
+.icon{
+    margin-left: 67%;
+}
+.first,
+.second{
+    width: 50%;
+    font: 16px Georgia;
+}
+ul li{
+    margin-bottom: 1%;
+}
+#check{
+    width: 40px;
+    height: 40px;
+    margin: 0% 3% 3% 3%;
+}
+.submit{
+    width: 90%;
+    height: 40px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+aside{
+    display: none;
+}
+.para{
+    display: none;
+    
+}
+@media only screen and (min-width: 768px){
+    .main{
+        display: flex;
+    }
+    .form{
+        align-items: center;
+        width: 80%;
+    }
+    section{
+        
+        width: 600px;
+        height: auto;
+        
+    }
+    .para{
+        display: block;
+        text-align: center;
+    }
+    .lateral{
+        display: block;
+        background-color: rgb(238, 255, 7);
+        width: 300px;
+        height: auto;
+        margin-left: 10%;
+        
+        background-image: url(../Forms/icon/art-hero-flowers.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 90%;
+        margin-top: -150px;
+    }
+    
+  
+}    

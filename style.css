@@ -79,6 +79,9 @@ ul li{
     height: 40px;
     margin-top: 10%;
     margin-left: 5%;
+    background-color: rgba(204, 202, 202, 0.767);
+    border: none;
+    border-radius: 5px;
 }
 aside{
     display: none;

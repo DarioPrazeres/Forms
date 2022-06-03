@@ -1,8 +1,5 @@
 # Forms
 
-Check it here:
-https://darioprazeres.github.io/Forms/
-
 
 <h1 align="center">Forms</h1>
 
